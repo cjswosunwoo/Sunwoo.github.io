@@ -1,3 +1,3 @@
-# Your blog
+# Sunwoo's blog
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+This blog consists my learning process of information theory and deep learning. I will further edit this section as my blog structure gets organized.
