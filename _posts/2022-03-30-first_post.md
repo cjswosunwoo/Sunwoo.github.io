@@ -9,3 +9,4 @@ living in a world where we cannot live without these machines. However, we are s
 brain. Yet we want to create it.
 I believe the key to understanding our biological brain and creating an artifical brain is in understanding the behavior of information in mathematical and physical sense.
 This is why I am planning on learning information theory.
+H~1~O
