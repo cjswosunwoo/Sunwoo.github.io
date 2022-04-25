@@ -7,7 +7,8 @@
 * CBCT- cone-beam CT
 * FOV- Field of View
 * IGRT- Image Guided Radiotherapy
-
+* QA- Quality Assurance
+* ART- Adapted Radiotherapy
 ## Evolving mutidisciplinary roles
 As SGRT is new to the radiation therapy system, the clinical team needs specific training to move from original 3 point view system to SGRT system.
 The qualified medical physicist(QMP) is responsible to instruct users such as RTT
@@ -45,13 +46,67 @@ These caracteristics enable SGRT to verify:
 * correct patient's posture
 * track the respiratory state
 * provide intra-fraction monitoring(used to augment 3D volumetric imaging workflows)
+  * SGRT can monitor intra fraction motion during the time interval required for the physician to evaluate 3D IGRT
+  * SGRT can be used to monitor the correlation between chest and abdominal breathign during lung SBRT to detect baseline drifts
 
 ### Standardization vs Individualization of Workflows
+SGRT promotes: the reduction of inter-operator variabiity, mitigates users' subjectivity, and compels a rigid/specific workflow which reduce treatment time and repeat 
+imaging
+
+SGRT quantifies: variations in individual patients due to natural differences(body size, body shape), physiological processes(breast seroma shrinkage,weight loss)
+
+SGRT response varies due difference in sex and body mass indices, breast implants, mastectomy
+
+Decision support tool for SGRT doesn't exist yet. 
 
 ### Patient safety vs. a new source of risk
+Examples of SGRT failure events:
+* inconsistency between the patient or plan-nae between the Oncology information System and SGRT database
+* mismatch between the SGRT or kV/MV/radiation isocenters
+* improper reference surface
+* inappropriate baseline
+* incorrect system configuration
 
+The use of SGRT as a decision support tool may result in higher risk because it it impacts patient's entire treatment course compared to when 
+it is used for patient positioning and verified by kV imaging
+
+How SGRT provides additional safety measure
+* provide real time feedback of patient position and monitoring during the entire treatment
+* provides additional information which improves workflows and provides safety benefits(ie. patient identification, collision avoidance, cross-check of immobilization devices and bolus position)
+
+SGRT can be a powerful risk mitigation with the following measures:
+* reduce human errors and subjective decisions by automating the patient positioning/immobilization process
+* increasing the detection rate of failture events as it can serve as an "independent observer" in the treatment room
+* compelling workflow standardization
 ### Big data vs. too much data
+Even with SGRT's ability to acquire image of 3D surfaces in real time, most clinical systems only use the quantitative output of 6 degrees of freedom translational/rotational shift to simplify the interpretation for the end user(i.e., RTT) which mimics the output of x-ray IGRT systems.The problem with this is that many valuable information is discarded by this process.
+
+One benefit of using SGRT data is to use both SGRT and x-ray IGRT information.
 
 ## Harnessing the synergy between research and clinical practice
 
 ### Potential new SGRT applications
+* markerless tracking for 4D image reconstruction
+* Biometric patient identification
+* Immobilization device identification
+* In-room scene mapping
+  * SGRT can can the entire treatment room, which can avoid collisions between treatment units in real time
+  * SGRT can provide missing data from CT as SGRT has larger FOV
+  * SGRT can scan the entire body of patient. This continous contour measurement gives us more accurate and reproducible dose calculations
+
+* Augmented reality
+   * Creates virtual objects to provide additional perceptual information,
+   * intersection between the treatment bean and reference patient surface could be calculated and virtually projected
+   * internal informationsuch as the contours of target volume or critical structures could be projected
+* Adapted radiotherapy(ART)
+  * SGRT can re-contour, re-optimize, re-evaluate and check quality without additional imaging dose due to additional degrees of freedom compared to other systems
+### Decision support
+SGRT can be used to 
+* calculate population-based margins for anatomical sites in which the surface is an adequate surrogate for the target(i.e., breast or brain)
+* calculate margines necessary to account for respiratory related motion and unexpected changes throughout the couse of treatment
+As SGRT benefits for predicting anatomical changes affecting the surface, it's more promising for tumors close to the surface such as breast cancer and lymphoma
+
+SGRT data can also be used to identify outliers in the patient's respiration pattern and to guide the 4DCT process
+
+### Requirements to move forward
+* Vendors and users should actively create data repositories to share information and data of patients' 3D surfaces
