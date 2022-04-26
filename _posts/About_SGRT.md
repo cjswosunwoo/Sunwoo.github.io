@@ -109,7 +109,7 @@ SGRT can be used to:
 * calculate margines necessary to account for respiratory related motion and unexpected changes throughout the couse of treatment
 As SGRT benefits for predicting anatomical changes affecting the surface, it's more promising for tumors close to the surface such as breast cancer and lymphoma
 
-SGRT data can also be used to identify outliers in the patient's respiration pattern and to guide the 4DCT process
+SGRT data can also be used to identify outliers in the patient's respiration pattern and to guide the 4DCT process. For breath-hold treatments, current SGRT systems quantify the amplitude and 3D surface position.
 
 ### Requirements to move forward
 * Vendors and users should actively create data repositories to share information and data of patients' 3D surfaces
