@@ -9,9 +9,12 @@
 * IGRT- Image Guided Radiotherapy
 * QA- Quality Assurance
 * ART- Adapted Radiotherapy
+* SBRT- Stereotactic Body Radiation Therapy
 ## Evolving mutidisciplinary roles
 As SGRT is new to the radiation therapy system, the clinical team needs specific training to move from original 3 point view system to SGRT system.
-The qualified medical physicist(QMP) is responsible to instruct users such as RTT
+The qualified medical physicist(QMP) is responsible to instruct users such as RTT.
+
+Because the SGRT data results don't always match with 3 point positioning, some RTTs might choose to ignore the information from the new SGRT system. To overcome this problem, patience and communication among the team members are needed.
 
 ## Dualities
 ### patient positioning(3-point vs. SGRT)
@@ -31,7 +34,7 @@ However, treatment volume using SGRT isn't very useful for abdomen and pelvis b/
 treatment volume in the abdomen and pelvis. It's better to combine SGRT and IGRT in this case.
 
 ### IGRT vs. SGRT/IGRT
-IGRT- encompasses any imaging technique that's used for anatomical or functional localization and response assessment in the treatment room
+IGRT- encompasses any imaging technique that's used for anatomical or functional localization and response assessment in the treatment room.
 Most widely used IGRT technique is CBCT but non-ionizing imaging modalities such as transabdominal 3D ultra-sound imaging and MRI are also used for
 IGRT. These provide additional benefits due to their real-time imaging capabilities and superior soft tissue contrast particulary in the case of MRI.
 
