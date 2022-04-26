@@ -61,7 +61,7 @@ Decision support tool for SGRT doesn't exist yet.
 
 ### Patient safety vs. a new source of risk
 Examples of SGRT failure events:
-* inconsistency between the patient or plan-nae between the Oncology information System and SGRT database
+* inconsistency between the patient or plan-name between the Oncology information System and SGRT database
 * mismatch between the SGRT or kV/MV/radiation isocenters
 * improper reference surface
 * inappropriate baseline
@@ -81,7 +81,7 @@ SGRT can be a powerful risk mitigation with the following measures:
 ### Big data vs. too much data
 Even with SGRT's ability to acquire image of 3D surfaces in real time, most clinical systems only use the quantitative output of 6 degrees of freedom translational/rotational shift to simplify the interpretation for the end user(i.e., RTT) which mimics the output of x-ray IGRT systems.The problem with this is that many valuable information is discarded by this process.
 
-One benefit of using SGRT data is to use both SGRT and x-ray IGRT information.
+Because SGRT focuses on the patiet's surface while x-ray imaging focuses on internal anatomy, combining these complementary modes of information could reduce the discrepancy between the two modalities
 
 ## Harnessing the synergy between research and clinical practice
 
@@ -96,12 +96,12 @@ One benefit of using SGRT data is to use both SGRT and x-ray IGRT information.
 
 * Augmented reality
    * Creates virtual objects to provide additional perceptual information,
-   * intersection between the treatment bean and reference patient surface could be calculated and virtually projected
+   * intersection between the treatment beam and reference patient surface could be calculated and virtually projected
    * internal informationsuch as the contours of target volume or critical structures could be projected
 * Adapted radiotherapy(ART)
   * SGRT can re-contour, re-optimize, re-evaluate and check quality without additional imaging dose due to additional degrees of freedom compared to other systems
 ### Decision support
-SGRT can be used to 
+SGRT can be used to:
 * calculate population-based margins for anatomical sites in which the surface is an adequate surrogate for the target(i.e., breast or brain)
 * calculate margines necessary to account for respiratory related motion and unexpected changes throughout the couse of treatment
 As SGRT benefits for predicting anatomical changes affecting the surface, it's more promising for tumors close to the surface such as breast cancer and lymphoma
