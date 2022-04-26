@@ -58,7 +58,9 @@ imaging
 
 SGRT quantifies: variations in individual patients due to natural differences(body size, body shape), physiological processes(breast seroma shrinkage,weight loss)
 
-SGRT response varies due difference in sex and body mass indices, breast implants, mastectomy
+SGRT response varies due difference in sex and body mass indices, breast implants, mastectomy.
+
+SGRT provides the opportunity to reproduce the patient's external surface over the entire body habitus from the CT simulation at each treatment session in the most reproducible way thanks to large FOV, which enables the characterization of overall posture and identification of any misalignment of the limbs or the head position that are not captured by 3D volumetric imaging.
 
 Decision support tool for SGRT doesn't exist yet. 
 
